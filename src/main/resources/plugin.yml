@@ -1,0 +1,13 @@
+name: CommandSpy
+version: ${project.version}
+main: com.github.tanokun.commandspy.CommandSpy
+authors: [ tanoKun ]
+description: CommandSpy
+
+commands:
+  commandspy:
+    aliases: [cspy]
+    permission: commandspy
+permissions:
+  commandspy:
+    default: op
